@@ -468,6 +468,9 @@
 				DEVELOPMENT_TEAM = D4535ALUAL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = wallpapeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wallpaper;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App requeres permission to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App requeres permission to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -495,6 +498,9 @@
 				DEVELOPMENT_TEAM = D4535ALUAL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = wallpapeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wallpaper;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App requeres permission to your photo library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App requeres permission to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
