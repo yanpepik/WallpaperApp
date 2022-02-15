@@ -15,7 +15,6 @@ final class MainPresenter {
     let networkService: NetworkServiceProtocol!
     var curatedPhotoDTO: CuratedPhotoDTO?
     
-    var query: String?
     var isLoading: Bool = false
     
     // MARK: - Initialization
@@ -27,7 +26,7 @@ final class MainPresenter {
     
     // MARK: - Private Methods
     private func dataToString<T: CVarArg>(data: T) -> String {
-        let  value = String(format: "%.0f", data)
+        let value = String(format: "%.0f", data)
         return value
     }
     
@@ -61,7 +60,6 @@ final class MainPresenter {
 
 // MARK: - DetailPresenterProtocol
 extension MainPresenter: MainPresenterProtocol {
-    
     func tapOnThePhoto(model: Photo?) {
         router?.showDetail(model: model)
     }
